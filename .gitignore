@@ -1,43 +1,86 @@
-# Prerequisites
-*.d
+# ========================
+# Build directories
+# ========================
+build/
+cmake-build-*/
+out/
+bin/
+lib/
 
-# Compiled Object files
-*.slo
-*.lo
+# ========================
+# CMake
+# ========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# ========================
+# Make
+# ========================
+Makefile
+*.make
+
+# ========================
+# Ninja
+# ========================
+.ninja_deps
+.ninja_log
+
+# ========================
+# Object files
+# ========================
 *.o
 *.obj
+*.lo
+*.slo
 
-# Precompiled Headers
+# ========================
+# Precompiled headers
+# ========================
 *.gch
 *.pch
 
-# Linker files
-*.ilk
+# ========================
+# Dependency files
+# ========================
+*.d
 
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+# ========================
+# Libraries
+# ========================
+*.a
+*.lib
+*.la
+*.lai
 *.so
+*.so.*
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
+# ========================
 # Executables
+# ========================
 *.exe
 *.out
 *.app
 
-# debug information files
+# ========================
+# Debug files
+# ========================
+*.pdb
+*.ilk
+*.dSYM/
 *.dwo
-*.json
-*.vscode/
+
+# ========================
+# IDEs & Editors
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
